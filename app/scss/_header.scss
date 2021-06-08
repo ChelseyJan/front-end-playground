@@ -3,6 +3,11 @@
     // Hamburger open style
     &.open {
 
+        .overlay {
+            display: block;
+            animation: fade-in 300ms ease-in-out forwards;
+        }
+
         .header__menu {
             > span:first-child {
                 transform: rotate(45deg);
