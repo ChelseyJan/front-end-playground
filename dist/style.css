@@ -16,6 +16,24 @@
   }
 }
 
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
